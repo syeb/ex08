@@ -1,0 +1,41 @@
+ex08
+
+11/20
+
+8.1
+-1
+  var members =
+    [{'name': 'IS', 'description': 'Informations Systems', 'firstName': 'Dzenan', 'lastName': 'Ridjanovic', 'email': 'dr@gmail.com'},
+     {'name': 'IS', 'description': 'Informations Systems', 'firstName': 'Robert', 'lastName': 'Nelson', 'email': 'rn@gmail.com'},
+     {'name': 'CS', 'description': 'Computer Science', 'firstName': 'David', 'lastName': 'Curtis', 'email': 'dc@gmail.com'} ];
+-->
+associations = [
+  {“name”: “IS”, “description”: “Information Systems”, “members”: 
+   [{“firstName”: “Dzenan”, “lastName”: “Ridjanovic”, “email”: “dr@gmail.com”},
+    {“firstName”: “Robert”, “lastName”: “Nelson”, “email”: “rn@gmail.com”}]},
+  {“name”: “CS”, “description”: “Computer Science”,  “members”: 
+   [{“firstName”: “David”, “lastName”: “Curtis”, “email”: “dc@gmail.com”}]}
+]
+ 
+-1
+attention au formatage
+startwithLetter(var members, var firstLetter) {
+  for(var r in members) {
+    if(r['lastName'][0] == firstLetter)
+           print(r);}
+  return('');
+  }
+
+attention aux types
+orderlastName(var members) {
+-->
+List orderlastName(List members) {
+
+-1 GIVEN ASSOCIATION
+Sort the list of members of a GIVEN ASSOCIATION first by the last name, 
+THEN by the first name.
+-1 THEN
+
+8.2
+-5
+Create a CLASS MODEL with associations and members...
