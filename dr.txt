@@ -1,5 +1,47 @@
 ex08
 
+15/20
+
+-1
+void main() {
+ex08_1();
+
+var model = new MembershipModel();
+model.init();
+model.display();
+
+}
+-->
+void main() {
+  ex08_1();
+
+  var model = new MembershipModel();
+  model.init();
+  model.display();
+}
+voir https://www.dartlang.org/articles/style-guide/
+
+8.1
+
+List association 
+-->
+List associations
+
+-1
+une seule liste; vous avez deux listes (members et associations)
+
+-1
+  startwithLetter(var members, var firstLetter) {
+-->
+startwithLetter(List members, String firstLetter) {
+se il vous plaît utiliser des types pour les paramètres de fonctions
+
+8.2
+-2
+Maintain the model by providing additions, removals and updates of entities. 
+
+---
+
 11/20
 
 8.1
